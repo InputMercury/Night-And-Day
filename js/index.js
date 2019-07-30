@@ -1,5 +1,5 @@
-$( document ).ready( function() {
-    $( 'button' ).click( function() {
-        $( 'body' ).addClass( 'black' );
+$(document).ready( function(){
+    $('button').click( function(){
+        $('body').addClass('black');
     );
 });
