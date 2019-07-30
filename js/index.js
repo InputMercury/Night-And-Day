@@ -1,5 +1,3 @@
-$(document).ready( function(){
-    $('button').click( function(){
-        $('body').addClass('black');
-    );
+$(function(){
+  alert("hi");
 });
