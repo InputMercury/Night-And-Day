@@ -5,13 +5,26 @@
     <title>Night And Day</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/constant.css"
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   </head>
   <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+    </style>
 
     <script type="text/javascript" src="js\jquery\jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js\index.js"></script>
 
-    <div id="orb" class="sun"></div>
+    <div class="header">
+      <h2 id="text" class="day-color">Night & Day Project</h2>
+    </div>
+
+    <div id="orb" class="sun">
+      <div id="moonspot1"></div>
+      <div id="moonspot2"></div>
+      <div id="moonspot3"></div>
+    </div>
+    <div id="inner-orb" class="inner-orb-visible"></div>
     <div id="sky" class="day"></div>
 
   </body>
