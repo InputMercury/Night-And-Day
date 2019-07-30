@@ -42,7 +42,8 @@ body {
   top: 5%;
   z-index: 999;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  height: 100px; }
   .header h2 {
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;

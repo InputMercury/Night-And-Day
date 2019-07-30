@@ -16,6 +16,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('#orb').click(function(){
+
+    $('#text').addClass('grow');
+    setTimeout(function(){
+      $('#text').removeClass('grow');
+    }, 250);
+
     if($('#orb').hasClass('sun')){
       $('#orb').removeClass('sun').addClass('moon');
       $('#inner-orb').removeClass('inner-orb-visible');
