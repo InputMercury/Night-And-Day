@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     $('#text').addClass('grow');
     setTimeout(function(){
-      $('#text').removeClass('grow');
+      $('#text').removeClass("grow");
     }, 250);
 
     if($('#orb').hasClass('sun')){
